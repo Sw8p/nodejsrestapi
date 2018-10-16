@@ -1,0 +1,8 @@
+{
+  "name": "nodejsrestapi",
+  "version": "1.0.0",
+  "description": "https://hackernoon.com/the-practical-guide-for-building-rest-api-in-nodejs-and-mongodb-include-passport-and-jwt-476720b70da0",
+  "main": "index.js",
+  "repository": "https://github.com/Sw8p/nodejsrestapi.git",
+  "license": "MIT"
+}
