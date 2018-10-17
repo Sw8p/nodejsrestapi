@@ -1,8 +1,25 @@
 {
-  "name": "nodejsrestapi",
-  "version": "1.0.0",
-  "description": "https://hackernoon.com/the-practical-guide-for-building-rest-api-in-nodejs-and-mongodb-include-passport-and-jwt-476720b70da0",
-  "main": "index.js",
-  "repository": "https://github.com/Sw8p/nodejsrestapi.git",
-  "license": "MIT"
+    "name": "nodejsrestapi",
+    "version": "1.0.0",
+    "description": "https://hackernoon.com/the-practical-guide-for-building-rest-api-in-nodejs-and-mongodb-include-passport-and-jwt-476720b70da0",
+    "main": "index.js",
+    "repository": "https://github.com/Sw8p/nodejsrestapi.git",
+    "license": "MIT",
+    "scripts": {
+        "dev:build": "webpack -w",
+        "dev": "cross-env NODE_ENV=development node dist/index.bundle.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.1.2",
+        "cross-env": "^5.2.0",
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "babel-loader": "^8.0.4",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2",
+        "webpack-node-externals": "^1.7.2"
+    }
 }
