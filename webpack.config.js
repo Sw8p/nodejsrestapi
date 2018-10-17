@@ -7,6 +7,7 @@ module.exports = {
         __dirname: false,
         __filename: false,
     },
+    devtool: 'inline-source-map',
     externals: [nodeExternals()],
     entry: {
         index: './src/index.js',
